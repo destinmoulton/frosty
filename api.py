@@ -13,7 +13,7 @@ def get_weather_data():
         "appid": config.api["key"]
     }
 
-    res = requests.get(api["url"], params=params)
+    res = requests.get(config.api["url"], params=params)
 
     if res.status_code == 200:
         return res.json()
