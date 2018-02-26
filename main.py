@@ -5,6 +5,7 @@ from dateutil import tz
 from pprint import pprint
 
 import config
+from email import send_email
 
 params = {
     "id": config.api_location_id,
