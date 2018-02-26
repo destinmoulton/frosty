@@ -1,7 +1,7 @@
 import pyowm
 
 from datetime import datetime, timedelta
-from dateutil import tz
+
 from pprint import pprint
 
 import config
