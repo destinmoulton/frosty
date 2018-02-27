@@ -20,3 +20,7 @@ The weather data is acquired via the [OpenWeatherMap](https://openweathermap.org
 ### Configuration
 
 Copy config.template.py and name it config.py and fill in your values. You can use gmail (tested) or another smtp server for the email configuration.
+
+### License
+
+Frosty is freely available under the MIT license.
