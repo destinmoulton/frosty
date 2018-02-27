@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 
 from api import get_weather_data
 from datetimehelper import get_end_datetime, get_start_datetime
