@@ -11,7 +11,7 @@ The charting requires matplotlib and TK.
 `sudo apt-get install python3-tk`
 
 The email is sent via the python-emails library:
-`sudo pip install python-emails`
+`sudo pip install emails`
 
 ### API(s)
 
