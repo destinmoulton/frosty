@@ -14,7 +14,9 @@ def get_weather_data():
     }
 
     res = requests.get(config.api["url"],
-                       params=params, proxies=config.proxies, timeout=10)
+                       params=params,
+                       timeout=10,
+                       proxies=config.proxies)
 
     if res.status_code == 200:
         return res.json()
