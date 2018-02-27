@@ -4,7 +4,7 @@ from pprint import pprint
 import config
 
 
-def get_minimum_temperature(forecast_data, start_datetime, end_datetime):
+def get_min_temp_and_time(forecast_data, start_datetime, end_datetime):
     '''Get the minimum temperature and time within a datetime range.
 
     Parameters
