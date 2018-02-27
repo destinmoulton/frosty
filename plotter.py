@@ -1,4 +1,6 @@
 from datetime import datetime
+import matplotlib
+matplotlib.use('Agg')  # Don't use an xwindows backend
 import matplotlib.pyplot as plt
 import matplotlib.dates as md
 from matplotlib import dates
