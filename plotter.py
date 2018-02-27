@@ -2,7 +2,6 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import matplotlib.dates as md
 from matplotlib import dates
-from pprint import pprint
 
 import config
 
