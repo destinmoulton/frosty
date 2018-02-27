@@ -29,3 +29,7 @@ email = {
         "ssl": True
     }
 }
+
+proxies = {
+    "https": "<PROXY_URL_HERE>"
+}
