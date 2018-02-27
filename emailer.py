@@ -34,6 +34,6 @@ def send_email(min_data):
         "now": datetime.now().strftime("%-I:%M %p %A %b %-d %Y")
     }
 
-    message.send(to=(config.email["to"]["name"], config.email["to"]["email"]),
-                 render=render_data,
-                 smtp=config.email["smtp"])
+    return message.send(to=(config.email["to"]["name"], config.email["to"]["email"]),
+                        render=render_data,
+                        smtp=config.email["smtp"])
