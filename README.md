@@ -23,4 +23,4 @@ Copy config.template.py and name it config.py and fill in your values. You can u
 
 ### License
 
-Frosty is freely available under the MIT license.
+MIT
